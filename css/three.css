@@ -1,0 +1,134 @@
+.threebanner{
+    margin: 60px 0;
+    padding: 115px 0;
+    background: url(../images/fivebanner.png);
+    background-size: cover;
+}
+.threebanner h2{
+    font-weight: 700;
+}
+.threegoodpeople{
+    padding: 60px 0;
+}
+.threegoodpeople h3{
+    font-weight: 700 ;
+}
+.profile{
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+    width: 100%;
+}
+.profile .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profile .icon img{
+    width: 100%;
+    border-radius: 50%;
+}
+.threeillution{
+    padding: 60px 0;
+}
+.choose{
+    padding: 60px 0;
+}
+.choose ul {
+    width: 100%;
+}
+.choose #chooseparagraph{
+    padding-bottom: 30px;
+}
+.choose .list ul li a{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 5px 0;
+    display: inline-block;
+    color: black;
+    border-radius: 15px;
+
+}
+.choose .list ul li a:hover{
+    background-color: #F47606;
+    color: white;
+}
+.choose .list ul li a.active{
+    background-color: #F47606;
+    color: white;
+}
+.choose .details{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+.choose .details p{
+    width: 100%;
+}
+.choose .details h3{
+    width: 100%;
+}
+.choose .details ul{
+    list-style: square;
+    padding: 20px;
+}
+.testimonial{
+    padding: 60px 0;
+}
+.testimonial .testi{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 75px 45px;
+    border-radius: 10px;
+}
+.testimonial .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial .heading a{
+    color: black;
+}
+.testimonial .heading a i{
+    padding-left: 10px;
+}
+.testimonial .icontest{
+    width: 100%;
+}
+.testimonial .icontest .ico{
+    width: 50px;
+    height: 50px;
+}
+.blog{
+    padding: 60px 0;
+}
+.blog .box{
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.blog .details{
+    padding: 28px;
+
+}
+.blog .thumb{
+    padding: 0 !important;
+    width: 100%;
+}
+.blog .tag{
+    display: flex;
+    gap: 20px;
+}
+.blog .tag a{
+    color: rgba(0, 0, 0, 0.7);
+}
+.blog hr{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+.blog .date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

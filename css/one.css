@@ -1,0 +1,24 @@
+.onebanner{
+    background: url(../images/onebanner.png);
+    padding: 132px 0;
+}
+.onebanner h1{
+    font-weight: 700;
+}
+.onebanner h1 span{
+    color: #F47606;
+}
+.onebanner p{
+    padding: 20px 0 30px;
+}
+.oneitem{
+    padding: 60px 0;
+}
+.featureproduct{
+    padding: 60px 0;
+}
+.featureproduct .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

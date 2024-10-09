@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100% !important;
+}
+/* Default Design */
+span{
+    font-weight: 700;
+}
+.logo a{
+    font-family: "Rye", sans-serif;
+    color: #477018;
+}
+.button a{
+    display: inline-block;
+    padding: 14px 50px;
+    border-radius: 10px;
+    background-color: #F47606;
+    color: white;
+    font-weight: 700;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thumb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    border-radius: 30px;
+}
+.thumb .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.thumb:hover > .overlay{
+    display: flex;
+}
+.thumb .overlay .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.thumb .overlay .icon:hover{
+    background-color: red;
+    color: white;
+}
+.star i{
+    color: #477018;
+}
+/* default design */
+
+
+
+header{
+    margin: 0;
+    color: white;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+header .note h5{
+    margin: 0;
+}
+header .note{
+    padding: 10px 0;
+    background-color: #477018;
+}
+nav{
+    background-color: white;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding: 0 20px;
+}
+nav ul li a{
+    color: black !important;
+    font-weight: 700 !important;
+}
+nav .shop{
+    display: flex;
+    gap: 20px;
+}
+nav .shop a{
+    color: black;
+}
+nav .search{
+    position: relative;
+}
+nav .search input{
+    position: absolute;
+    right: 30px;
+    padding: 0 10px;
+    text-align: center;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    padding: 190px 0;
+    position: relative;
+}
+.banner h1{
+    font-weight: 700;
+}
+.banner h1 span{
+    color: #F47606;
+}
+.banner .floatimage{
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: right;
+}
+.support{
+    padding: 60px 0;
+}
+.support .ico{
+    width: 50px;
+    height: 50px;
+}
+.product{
+    padding: 60px 0;
+}
+.product h3{
+    font-weight: 700;
+}
+.product .sidemenu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product .chart{
+    padding: 45px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    transition: 1s;
+}
+.product .chart:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.product .chart ul li{
+    margin: 5px 0;
+}
+.product .chart ul li img{
+    height: 40px !important;
+    width: 40px !important;
+    margin-right: 20px;
+}
+.product .chart h4{
+    font-weight: 700;
+}
+.product .chart .button a{
+    margin-bottom: 190px;
+}
+.product .ch2{
+    background: url(../images/bg-product.png);
+    background-size: cover;
+}
+.deals{
+    padding: 60px 0;
+}
+.deals h3{
+    font-weight: 700;
+}
+.deals h5{
+    font-weight: 600;
+}
+.deals .duration {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    text-align: center;
+}
+.deals .duration span{
+    display: block;
+    font-weight: 700;
+}
+.top{
+    padding: 60px 0;
+    position: relative;
+}
+.top h6{
+    font-weight: 700;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+}
+.test{
+    padding: 60px 0;
+}
+.test .txt{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.test h3{
+    font-weight: 700;
+}
+.test .profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.test .profile .man{
+    height: 60px;
+    width: 60px;
+}
+.test .profile .man img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.test .profile .quote{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.test .qoute .ico{
+    width: 50px !important;
+    height: 50px !important;
+}
+.test .arrow{
+    display: flex;
+    gap: 20px;
+}
+.feature{
+    padding: 60px 0;
+}
+.feature img{
+    width: 100%;
+}
+.feature .text{
+    display: flex;
+    justify-content: space-between;
+}
+.feature .date{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.feature .details{
+    padding: 0 20px;
+}
+footer{
+    padding: 60px 0;
+    background-color: #373C33;
+    color: white;
+}
+
+footer .address{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+footer .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #477018;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .flist{
+    display: flex;
+}
+footer .flist .fsecond{
+    padding-left: 20px;
+}
+footer ul li{
+    margin: 10px 0;
+}
+footer .form{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+footer input{
+    padding: 14px 60px 14px 16px;
+    border-radius: 10px;
+    width: 100%;
+}
+footer .form a{
+    position: absolute;
+    right: 0;
+    padding: 16px 32px;
+    display: inline-block;
+    background-color: #F47606;
+    border-radius: 10px;
+    
+    color: white;
+}
+

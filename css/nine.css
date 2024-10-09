@@ -1,0 +1,184 @@
+.ninebanner{
+    padding: 60px 0;
+}
+.ninebanner .leftpart{
+    padding: 130px 60px;
+    background: url(../images/ninebanner1.png);
+    background-size: cover;
+    display: block;
+}
+.ninebanner .leftpart h1{
+    font-weight: 700;
+}
+.ninebanner .leftpart h1 span{
+    color: #F47606;
+}
+.ninebanner .rightpart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ninebanner .rightuppart{
+    background: url(../images/nineuppart.png);
+    background-size: cover;
+    padding: 45px 45px 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.ninebanner .rightuppart h3{
+    text-align: right;
+    font-weight: 700;
+}
+.ninebanner .downpart{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px !important;
+}
+.ninebanner .downpart .box{
+    padding: 0 5px !important;
+}
+.nineshop{
+    padding: 60px 0;
+}
+.nineshop .box{
+    display: block;
+    padding: 65px 55px;
+    background: url(../images/ninepricethumb.png);
+    background-size: cover;
+}
+.ninetrend{
+    padding: 60px 0;
+}
+.ninetrend h2{
+    text-align: center;
+}
+.ninetrend .subheading{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.ninehealth{
+    padding: 60px 0;
+}
+.ninehealth .healthbanner{
+    padding: 92px 104px;
+    background: url(../images/health.png);
+    background-size: cover;
+}
+.ninehealth .healthbanner h2{
+    font-weight: 700;
+}
+.ninehealth .healthbanner p{
+    width: 50%;
+}
+.ninedealweek{
+    padding: 60px 0;
+}
+.ninedealweek h2{
+    text-align: center;
+    font-weight: 700;
+}
+.ninedealweek .time{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.ninedealweek .time p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #F47606;
+    font-weight: 700;
+}
+.ninedealweek h3{
+    margin: 20px 0;
+}
+.ninetopratingproduct{
+    padding: 60px 0;
+}
+.ninetopratingproduct h2{
+    font-weight: 700;
+}
+.ninekitchen{
+    padding: 60px 0;
+}
+.ninekitchen .item{
+    padding: 73px 32px;
+    display: block;
+    background: url(../images/ninekitchen.png);
+    background-size: cover;
+}
+.ninekitchen .item h3{
+    width: 50%;
+    font-weight: 600;
+}
+.nineproduct{
+    padding: 60px 0;
+}
+.nineproduct h2{
+    text-align: center;
+    font-weight: 700;
+}
+.nineproduct .subheading{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.nineproduct .thumb{
+    flex-direction: row;
+}
+.ninefeedback{
+    padding: 60px 0;
+}
+.ninefeedback .roww{
+    display: flex !important;
+}
+.ninefeedback h2{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+.ninefeedback .profile{
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+}
+.ninefeedback .profile .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.ninefeedback .desig{
+    padding-left: 20px;
+}
+.ninefeedback .quote{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.ninefeedback .profile .icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.ninefeedback .star{
+    width: 100%;
+    justify-content: left !important;
+}
+.ninenews{
+    padding: 60px 0;
+}
+.ninenews .thumb{
+    border-radius: 0;
+    width: 100%;
+    padding: 138px 30px 23px;
+    background: url(../images/news.png);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
