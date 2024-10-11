@@ -121,3 +121,34 @@
 .fivecategories .list4 ul li{
     display: flex;
 }
+.fivecategories .list5 .link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.fivecategories .list5 a{
+    display: inline;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.fivecategories .product .box{
+    padding: 0;
+}
+.fivecategories .navigation{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+.fivecategories .navigation a{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #ddd;
+
+}
+.fivecategories .navigation a:first-child{
+    background-color: #477018;
+    color: white;
+}
