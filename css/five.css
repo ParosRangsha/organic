@@ -25,3 +25,99 @@
     display: flex;
     align-items: center;
 }
+.fivecategories .sorting{
+    height: 100%;
+}
+.fivecategories .sorting .bar{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.fivecategories .sorting .bar i{
+    font-size: 30px;
+}
+.fivecategories .sorting .inpbox{
+    position: relative;
+}
+.fivecategories .sorting .inpbox input{
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+.fivecategories .sorting .inpbox i{
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fivecategories .list{
+    padding: 22px 30px;
+    border: 1px solid #999;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.fivecategories .list h4{
+    text-align: left;
+    font-weight: 700;
+}
+.fivecategories hr{
+    height: 2px;
+    width: 100%;
+    background-color: #999;
+}
+.fivecategories .list ul{
+    list-style: disc;
+}
+.fivecategories .linebar{
+    height: 5px;
+    width: 100%;
+    background-color: #477018;
+    position: relative;
+    margin-bottom: 20px;
+}
+.fivecategories .linebar::after{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #477018;
+    top: 50%;
+    left: -5px;
+    transform: translateY(-50%);
+}
+.fivecategories .linebar::before{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #477018;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+}
+.fivecategories .list3 ul{
+    list-style: circle;
+}
+.fivecategories .list3 ul li i{
+    cursor: pointer;
+    color: #FFAE00;
+}
+.fivecategories .list4{
+    padding: 20px 5px;
+}
+.fivecategories .list4 .thumb{
+    padding: 0;
+}
+.fivecategories .list4 ul{
+    list-style: none;
+}
+.fivecategories .list4 .thumb{
+    width: 100px;
+    height: 100px;
+}
+.fivecategories .list4 ul li{
+    display: flex;
+}
