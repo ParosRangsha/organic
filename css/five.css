@@ -1,3 +1,27 @@
 .fivebanner{
     padding: 60px 0;
+    background: url(../images/shopbanner.png);
+    background-size: cover;
+}
+.fivecategories{
+    padding: 60px 0;
+}
+.fivecategories .searchBox{
+    position: relative;
+}
+.fivecategories .searchBox input{
+    width: 100%;
+    padding: 14px 22px;
+    border-radius: 10px;
+}
+.fivecategories .searchBox i{
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.fivecategories .showResult{
+    display: flex;
+    align-items: center;
 }
