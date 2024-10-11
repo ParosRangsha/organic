@@ -20,6 +20,9 @@ ul{
 img{
     width: 100% !important;
 }
+i{
+    cursor: pointer;
+}
 /* Default Design */
 span{
     font-weight: 700;
