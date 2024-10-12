@@ -2,6 +2,7 @@
     padding: 60px 0;
 }
 .ninebanner .leftpart{
+    height: 100%;
     padding: 130px 60px;
     background: url(../images/ninebanner1.png);
     background-size: cover;
@@ -21,7 +22,7 @@
 .ninebanner .rightuppart{
     background: url(../images/nineuppart.png);
     background-size: cover;
-    padding: 45px 45px 205px;
+    padding: 45px 45px 100px;
     display: flex;
     flex-direction: column;
     justify-content: end;
